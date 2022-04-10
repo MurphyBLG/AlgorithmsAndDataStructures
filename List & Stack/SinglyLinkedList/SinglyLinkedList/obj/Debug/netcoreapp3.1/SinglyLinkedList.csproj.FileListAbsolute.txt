@@ -1,0 +1,28 @@
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.exe
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.deps.json
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.runtimeconfig.json
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.runtimeconfig.dev.json
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.dll
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.pdb
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.csproj.AssemblyReference.cache
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.AssemblyInfoInputs.cache
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.AssemblyInfo.cs
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.dll
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.pdb
+C:\Users\Murphy\Documents\ВУЗ\Алгоритмы и структуры данных\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.genruntimeconfig.cache
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.csproj.AssemblyReference.cache
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.AssemblyInfoInputs.cache
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.AssemblyInfo.cs
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.dll
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.pdb
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.exe
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.deps.json
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.runtimeconfig.json
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.runtimeconfig.dev.json
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.dll
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\bin\Debug\netcoreapp3.1\SinglyLinkedList.pdb
+C:\Users\Murphy\Documents\University\A&DS\Линейные структуры данных односвязные списки и стек\SinglyLinkedList\SinglyLinkedList\obj\Debug\netcoreapp3.1\SinglyLinkedList.genruntimeconfig.cache
