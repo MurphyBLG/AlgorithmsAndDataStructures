@@ -1,8 +1,3 @@
-from distutils.command.build import build
-from lib2to3.pytree import Node
-from logging import root
-
-
 class Node:
     def __init__(self, value) -> None:
         self.value = value
@@ -30,6 +25,21 @@ class BST:
         node.right = self.build_tree(arr[mid + 1:])
         return node
 
+    def find(self, key: int):
+        cur = self.root
+
+        while cur.left != None and cur.right != None and cur.value != key:
+            if cur.value > key:
+                cur = cur.left
+            
+            if cur.value < key:
+                cur = cur.right
+
+        if cur.value == key:
+            return cur
+        else:
+            return None
+
 
 if __name__ == '__main__':
     n = int(input())
@@ -39,4 +49,5 @@ if __name__ == '__main__':
     tree = BST()
     tree.build_tree(arr)
 
+    print(tree.find(5))
 
