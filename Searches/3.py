@@ -23,7 +23,7 @@ def find(word, text):
 
         if k == len(word):
             print(i - k + 1)
-            return
+            i += k
         else:
             if k == 0:
                 i += min(len(text) - i, shifts[word[len(word) - 1]])
@@ -33,10 +33,11 @@ def find(word, text):
 
 
 if __name__ == '__main__':
-    word = input()
+    word = input("Enter substr: ")
     shifts = calc_shifts(word)
 
     with open("input.txt", "r") as f:
         text = f.read()
     
+    print("Indexes: ")
     find(word, text)

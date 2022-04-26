@@ -3,7 +3,6 @@ class Node:
         self.value = value
         self.left = None
         self.right = None
-        # self.parent = None
 
 
 class BST:
@@ -84,15 +83,19 @@ class BST:
 
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("Enter amount of elements: "))
+    print("Enter elements: ", end="")
     arr = list(map(int, input().split()))
     arr.sort()
 
     tree = BST()
     tree.build_tree(arr)
 
-    print(tree.find(5))
+    key = int(input("Enter key you're searching: "))
+    print(tree.find(key))
+    print("Tree before deleting: ")
     tree.printTree(node=tree.root)
-    tree.delete(node=tree.root, value=6)
+    tree.delete(node=tree.root, value=key)
+    print("Tree after deleting: ")
     tree.printTree(node=tree.root)
 

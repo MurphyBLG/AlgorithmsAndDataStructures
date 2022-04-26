@@ -1,4 +1,6 @@
+from math import e
 from re import U
+import random
 
 
 def lower_bound(value: int, arr: list) -> int:
@@ -36,9 +38,11 @@ def upper_bound(value: int, arr: list) -> int:
     
 
 if __name__ == '__main__':
-    n = int(input())
-    key = int(input())
-    arr = list(map(int, input().split()))
+    n = int(input("Enter count of elements: "))
+    key = int(input("Enter key: "))
+    arr = [random.randrange(1, 50, 1) for i in range(n)]
+
+    print("Array: " + str(arr))
 
     arr.sort()
     
