@@ -1,21 +1,27 @@
-from pprint import pprint
+def print_table(table):
+    for el in table:
+        print(f"{el[0]}: {el[1]}")
+
+
+def roflan_hashfun(char):
+    return ord(char) - 97
+
 
 if __name__ == "__main__":
-    hash_table = {}
-    sent = input().lower()
+    sent = input("Enter string: ").lower()
 
-
+    hash_table = []
+    for i in range(26):
+        hash_table.append([chr(97+i), 0])
+    
     for c in sent:
         if c.isalpha():
-            if c in hash_table.keys():
-                hash_table[c] += 1
-            else:
-                hash_table[c] = 1
+            hash_table[roflan_hashfun(c)][1] += 1
 
-    pprint(hash_table)
     
-    letter = input()
-    if letter in hash_table.keys():
-        print(f'Hash table cotains letter "{letter}"\nCount of letter "{letter}" is {hash_table[letter]}')
+    letter = input("Enter letter you're searching: ")
+    letter_hash = roflan_hashfun(letter)
+    if hash_table[letter_hash][1] != 0:
+        print(f'Hash table cotains letter "{letter}"\nCount of letter "{letter}" is {hash_table[letter_hash][1]}')
     else:
         print(f'There is no letter "{letter}"')
