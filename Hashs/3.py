@@ -1,15 +1,44 @@
+def hash_f(num, m):
+    sum = 0
+    while num != 0:
+        sum += num % 10
+        num //= 10
+
+    return sum % m
+
+
+def print_table(table):
+    for el in table:
+        print(f"{el[0]}: {el[1]}")
+
+
+def linear_search(arr, num):
+    t = 0
+    for el in arr:
+        if el == num:
+            t += 1
+    
+    return t
+
+
+def find_num(table, num, m):
+    num_hash = hash_f(num, m)
+    
+    print(f"Number '{num}' appears {linear_search(table[num_hash][1], num)} times in the table")
+
+
 if __name__ == '__main__':
-    hash_table = {}
-    with open("input.txt", "r") as f:
+    n = int(input("Enter hash table size: "))
+    hash_table = []
+    for i in range(n):
+        hash_table.append([i, []])
+
+    with open("input2.txt", "r") as f:
         for line in f.readlines():
             for word in line.split():
-                if word in hash_table:
-                    hash_table[int(word)] += 1
-                else:
-                    hash_table[int(word)] = 1
+                hash_table[hash_f(int(word), n)][1].append(int(word))
 
-    num = int(input())
-    if num in hash_table.keys():
-        print(f'Hash table cotains num "{num}"\nCount of num "{num}" is {hash_table[num]}')
-    else:
-        print(f'There is no num "{num}"')
+    print_table(hash_table)
+
+    number = int(input("Enter number you're searching: "))
+    find_num(hash_table, number, n)
