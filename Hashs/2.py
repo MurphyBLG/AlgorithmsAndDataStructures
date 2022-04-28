@@ -1,28 +1,56 @@
-from pprint import pprint
+def hash_fun(word, m):
+    return (ord(word[0]) - 97) % m
+
+
+def print_table(table):
+    for el in table:
+        print(f"{el[0]}: {el[1]}")
+
+
+def linear_search(arr, word):
+    t = 0
+    for el in arr:
+        if el == word:
+            t += 1
+    
+    return t
+
+
+def find_word(table, word, m):
+    word_hash = hash_fun(word, m)
+    
+    print(f"Word '{word}' appears {linear_search(table[word_hash][1], word)} times in the table")
+
+
+def delete(table, letter, m):
+    letter_hash = hash_fun(letter, m)
+
+    tmp = []
+    for el in table[letter_hash][1]:
+        if el[0] != letter:
+            tmp.append(el)
+
+    table[letter_hash][1] = tmp
+
+
 
 if __name__ == "__main__":
-    hash_table = {}
+    n = int(input("Enter hash table size: "))
+    hash_table = []
+    for i in range(n):
+        hash_table.append([i, []])
 
     with open("input.txt", "r") as f:
         for line in f.readlines():
             for word in line.split():
-                if word in hash_table:
-                    hash_table[word] += 1
-                else:
-                    hash_table[word] = 1
+                hash_table[hash_fun(word.lower(), n)][1].append(word.lower())
 
-    pprint(hash_table)
+    print_table(hash_table)
 
-    word = input()
-    if word in hash_table.keys():
-        print(f'Hash table cotains word "{word}"\nCount of word "{word}" is {hash_table[word]}')
-    else:
-        print(f'There is no word "{word}"')
-
-    letter = input()
-    tmp_dict = hash_table.copy()
-    for itm in tmp_dict.keys():
-        if itm.startswith(letter):
-            del hash_table[itm]
+    word = input("Enter word you're searching: ")
+    find_word(hash_table, word, n)
     
-    print(hash_table)
+    letter = input("Enter letter: ")
+    delete(hash_table, letter, n)
+
+    print_table(table=hash_table)
