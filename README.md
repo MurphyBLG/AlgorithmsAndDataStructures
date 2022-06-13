@@ -40,6 +40,7 @@ Implement the program using the following algorithms: binary search.
 2. Using trees in search tasks
 
 Implement an ordered search tree algorithm. Find the search key and remove it from the tree.
+
 3. Search in text
 
 A text file contains text. Perform a direct search for a user-entered word using Bowyer and Moore algorithm.
